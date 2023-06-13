@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan jquery 01</title>
+
+</head>
+<body>
+    
+    <h3>judul</h3>
+    <div id="tampil1">isi dari tampil 1</div>
+    <div class="tampil1" >isi dari class tampil 1</div>
+
+    <p>isi paragraph</p>
+    <div id="tampil2">kodingan</div>
+    <div class="tampil2"> dkv </div>
+
+    <script src= "code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script>
+        
+         $(document).ready (function(){
+            $("#tampil1").html("KULIAH STRESS GA KULIAH GA BISA");
+            $(".tampil1").html("KODINGANKU SIAP MELACAK CINTAMU ");
+            $("h3").html("BELAJAR MELUPAKANMU");
+            $("p").html("CAPE SEKALI MELIHATMU DENGAN PILIHANMU")
+            $("#tampil2").html("Jadikan Aku Yg Ke Dua")
+            $(".tampil2").html("Jika Kamu Punya Yang Pertama Buang Lah Dia")
+         });
+    </script>
+</body>
+</html>
